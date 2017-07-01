@@ -10,7 +10,7 @@
 
 ----
 
-**PerconaDB 5.7 Docker on CentOS 7**
+**PerconaDB 5.6 Docker on CentOS 7**
 
 [![Devilbox](https://raw.githubusercontent.com/cytopia/devilbox/master/.devilbox/www/htdocs/assets/img/devilbox_80.png)](https://github.com/cytopia/devilbox)
 
