@@ -62,7 +62,7 @@ log() {
 ###
 get_mysql_default_config() {
 	_key="${1}"
-	mysqld --verbose --help  2>/dev/null  | awk -v key="${_key}" '$1 == key { print $2; exit }'
+	mysqld --verbose --help --log-bin-index="$(mktemp -u)" 2>/dev/null | grep "^${_key}" | awk '{ print $2; exit }'
 }
 
 
@@ -253,7 +253,7 @@ else
 
 
 	# Install Database
-	run "mysqld --initialize-insecure --datadir=${DB_DATA_DIR} --user=${MY_USER}"
+	run "mysql_install_db --datadir=${DB_DATA_DIR} --user=${MY_USER}"
 
 
 	# Start server
