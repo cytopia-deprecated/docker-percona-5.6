@@ -1,6 +1,6 @@
 # PerconaDB 5.6 Docker
 
-<small>**Latest build:** 2017-08-30</small>
+<small>**Latest build:** 2017-09-29</small>
 
 [![Build Status](https://travis-ci.org/cytopia/docker-percona-5.6.svg?branch=master)](https://travis-ci.org/cytopia/docker-percona-5.6) [![](https://images.microbadger.com/badges/version/cytopia/percona-5.6.svg)](https://microbadger.com/images/cytopia/percona-5.6 "percona-5.6") [![](https://images.microbadger.com/badges/image/cytopia/percona-5.6.svg)](https://microbadger.com/images/cytopia/percona-5.6 "percona-5.6") [![](https://images.microbadger.com/badges/license/cytopia/percona-5.6.svg)](https://microbadger.com/images/cytopia/percona-5.6 "percona-5.6")
 
